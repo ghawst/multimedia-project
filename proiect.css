@@ -1,0 +1,155 @@
+body {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+	font-size: 24px;
+	margin-bottom: 50px;
+	background-color: #d8f3ff;
+}
+
+.note {
+	margin-top: 35px;
+	margin-bottom: 0px;
+	font-size: 19px;
+	font-style: italic;
+}
+
+.noMarginTop {
+	margin-top: 0px;
+}
+
+.container {
+	text-align: center;
+}
+
+.marginTop {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+canvas {
+	background-color: gray;
+	display: block;
+	margin-bottom: 10px;
+	margin: 0 auto;
+}
+
+canvas:first-of-type {
+	margin-bottom: 10px;
+}
+
+#saveImgButt {
+	text-decoration: none;
+	color: white;
+	background-color: blue;
+	padding: 15px;
+	border-radius: 7px;
+	cursor: default;
+}
+
+#saveImgButt:hover {
+	color: black;
+	background-color: cyan;
+}
+
+#clearImgsButt {
+	text-decoration: none;
+	color: white;
+	background-color: red;
+	padding: 5px;
+	border-radius: 7px;
+	cursor: default;
+}
+
+#clearImgsButt:hover {
+	color: black;
+	background-color: pink;
+}
+
+.templateImg {
+	height: 50px;
+}
+
+.templateButt {
+	padding-bottom: 2px;
+	padding-top: 35px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: orange;
+	border-radius: 7px;
+}
+
+.templateButt:hover {
+	background-color: yellow;
+}
+
+.backgroundButt {
+	padding-bottom: 2px;
+	padding-top: 35px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: black;
+	border-radius: 7px;
+}
+
+.backgroundButt:hover {
+	background-color: gray;
+}
+
+.filterButt {
+	padding: 14px;
+	border: 1px solid gray;
+	background-color: grey;
+	border-radius: 7px;
+	cursor: default;
+	color: white;
+}
+
+.filterButt:hover {
+	background-color: white;
+	border: 1px solid black;
+	color: black;
+}
+
+.redVButt {
+	background-color: red;
+	padding: 11px 17px;
+	border-radius: 7px;
+	font-size: 30px;
+	color: white;
+}
+
+.redVButt:hover {
+	background-color: pink;
+	color: black;
+}
+
+.greenVButt {
+	background-color: green;
+	padding: 11px 17px;
+	border-radius: 7px;
+	font-size: 30px;
+	color: white;
+}
+
+.greenVButt:hover {
+	background-color: yellow;
+	color: black;
+}
+
+.blueVButt {
+	background-color: blue;
+	padding: 11px 17px;
+	border-radius: 7px;
+	font-size: 30px;
+	color: white;
+}
+
+.blueVButt:hover {
+	background-color: cyan;
+	color: black;
+}

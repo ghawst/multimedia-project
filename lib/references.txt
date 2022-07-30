@@ -1,0 +1,16 @@
+https://www.smashingmagazine.com/2018/01/drag-drop-file-uploader-vanilla-js/
+http://www.williammalone.com/briefs/how-to-draw-image-html5-canvas/
+https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_draganddrop
+http://jsfiddle.net/z3JtC/759/
+https://stackoverflow.com/questions/15048279/drawimage-not-working
+https://stackoverflow.com/questions/10673122/how-to-save-canvas-as-an-image-with-canvas-todataurl
+https://jsfiddle.net/codepo8/V6ufG/2/
+https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/drawImage
+https://www.w3schools.com/tags/canvas_fill.asp
+http://beej.us/blog/data/convolution-image-processing/
+http://alexb.ase.ro/media/docs/mm/Video_Procesare.htm
+https://stackoverflow.com/questions/826782/how-to-disable-text-selection-highlighting
+https://stackoverflow.com/questions/51572489/playing-sound-on-click-event-with-pure-javascript
+
+Sounds from:
+https://www.zapsplat.com/

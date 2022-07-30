@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Proiect</title>
+	<link rel="stylesheet" type="text/css" href="proiect.css">
+</head>
+<body>
+	<canvas width="184" height="184" ondrop="drop(event)" ondragover="allowDrop(event)"></canvas>
+	<div class="container">
+		<a id="clearImgsButt" onclick="clearImages()">Clear Images</a>
+		<br>
+		<div class="marginTop">
+			<label for="widthChange" display="inline">Change Collage Width: </label>
+			<input id="widthChange" type="number" value="600" step="10" onchange="changeCollageWidth(value)">
+			<label for="heightChange" display="inline">Change Collage Height: </label>
+			<input id="heightChange" type="number" value="800" step="10" onchange="changeCollageHeight(value)">
+		</div>
+		<canvas width="600" height="800" ondrop="drop(event)" ondragover="allowDrop(event)"></canvas>
+		<label for="borderChange" display="inline">Change Collage Border: </label>
+		<input id="borderChange" type="number" value="15" step="1" onchange="changeBorder(value)">
+		<p>Background: </p>
+		<a class="backgroundButt" onclick="pickBackground(1)"><img class="templateImg" src="media/background1.gif"></a>
+		<a class="backgroundButt" onclick="pickBackground(2)"><img class="templateImg" src="media/background2.gif"></a>
+		<a class="backgroundButt" onclick="pickBackground(3)"><img class="templateImg" src="media/background3.gif"></a>
+		<a class="backgroundButt" onclick="pickBackground(4)"><img class="templateImg" src="media/background4.gif"></a>
+		<a class="backgroundButt" onclick="pickBackground(5)"><img class="templateImg" src="media/background5.gif"></a>
+		<a class="backgroundButt" onclick="pickBackground(6)"><img class="templateImg" src="media/background6.gif"></a>
+		<a class="backgroundButt" onclick="pickBackground(7)"><img class="templateImg" src="media/background7.gif"></a>
+		<a class="backgroundButt" onclick="pickBackground(8)"><img class="templateImg" src="media/background8.png"></a>
+		<a class="backgroundButt" onclick="pickBackground(9)"><img class="templateImg" src="media/background9.jpg"></a>
+		<a class="backgroundButt" onclick="pickBackground(10)"><img class="templateImg" src="media/background10.png"></a>
+		<a class="backgroundButt" onclick="pickBackground(11)"><img class="templateImg" src="media/background11.jpg"></a>
+		<a class="backgroundButt" onclick="pickBackground(12)"><img class="templateImg" src="media/background12.jpg"></a>
+		<a class="backgroundButt" onclick="pickBackground(13)"><img class="templateImg" src="media/background13.jpg"></a>
+		<a class="backgroundButt" onclick="pickBackground(14)"><img class="templateImg" src="media/background14.jpg"></a>
+		<p>Template: </p>
+		<a class="templateButt" onclick="pickTemplate(1)"><img class="templateImg" src="media/template1.gif"></a>
+		<a class="templateButt" onclick="pickTemplate(2)"><img class="templateImg" src="media/template2.gif"></a>
+		<a class="templateButt" onclick="pickTemplate(3)"><img class="templateImg" src="media/template3.gif"></a>
+		<br>
+		<p class="note">Note: Performing other actions after adding filters or changing RGB values will reset both.</p>
+		<br>
+		<a class="filterButt" onclick="resetFilters()">Reset filters and RGB values</a>
+		<div class="marginTop">
+			<p class="noMarginTop">Filters: </p>
+			<a class="filterButt" onclick="changeFilter(1)">Blur</a>
+			<a class="filterButt" onclick="changeFilter(2)">Sharpen</a>
+			<a class="filterButt" onclick="changeFilter(3)">Emboss</a>
+			<a class="filterButt" onclick="changeFilter(4)">Lighten</a>
+			<a class="filterButt" onclick="changeFilter(5)">Darken</a>
+			<a class="filterButt" onclick="changeFilter(6)">Edge</a>
+			<a class="filterButt" onclick="changeFilter(7)">Gray Edge</a>
+		</div>
+		<div class="marginTop">
+			<p>RGB Values: </p>
+			<a class="redVButt" onclick="decreaseRed()">-</a>
+			<a class="redVButt" onclick="addRed()">+</a>
+			<a class="greenVButt" onclick="decreaseGreen()">-</a>
+			<a class="greenVButt" onclick="addGreen()">+</a>
+			<a class="blueVButt" onclick="decreaseBlue()">-</a>
+			<a class="blueVButt" onclick="addBlue()">+</a>
+		</div>
+		<br>
+		<br>
+		<a id="saveImgButt" onclick="saveImage()">Save Image</a>
+	</div>
+
+  <script type="text/javascript" src="proiect.js"></script>
+</body>
+</html>
